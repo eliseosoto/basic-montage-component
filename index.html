@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="../node_modules/montage/montage.js"></script>
+
+        <script type="text/montage-serialization">{
+            "myComponent": {
+                "prototype": "my-component.reel",
+                "properties": {
+                    "element": {"#": "myComponent"},
+                    "textToDisplay": "Hello!"
+                }
+            }
+        }</script>
+	</head>
+    <body>
+        <p>This page includes a Montage component below that converts 'textToDisplay' to uppercase.</p>
+
+        <div data-montage-id="myComponent"></div>
+    </body>
+</html>

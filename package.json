@@ -1,0 +1,7 @@
+{
+    "name": "basic-montage-component",
+    "version": "1.0.0",
+    "mappings": {
+        "montage": "./node_modules/montage"
+    }
+}
